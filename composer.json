@@ -1,0 +1,53 @@
+{
+    "name": "JTGrimes/simple-laravel-feature-flag",
+    "type": "library",
+    "description": "A quick and dirty feature flag for Laravel",
+    "keywords": [
+        "JTGrimes",
+        "simple-laravel-feature-flag"
+    ],
+    "homepage": "https://github.com/JTGrimes/simple-laravel-feature-flag",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "J.T. Grimes",
+            "email": "jtgrimes@gmail.com",
+            "homepage": "https://github.com/jtgrimes",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0",
+        "illuminate/support": ">5.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "orchestra/testbench": "^3.4",
+        "phpunit/phpunit": "~4.0||~5.0",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JTGrimes\\FeatureFlag\\": "src"
+        },
+        "files": ["src/ff-helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JTGrimes\\FeatureFlag\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
