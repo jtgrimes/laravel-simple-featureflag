@@ -1,4 +1,4 @@
-# simple-laravel-feature-flag
+# laravel-simple-featureflag
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -15,7 +15,7 @@ provide configuration by user, nor is it set up for A/B tests. It's a simple on/
 Install the package with Composer:
 
 ``` bash
-$ composer require JTGrimes/simple-laravel-feature-flag
+$ composer require JTGrimes/laravel-simple-featureflag
 ```
 
 You'll need to update the providers array in `config/app.php` 
@@ -103,16 +103,10 @@ If you discover any security related issues, please email jtgrimes@gmail.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/JTGrimes/simple-laravel-feature-flag.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/JTGrimes/laravel-simple-featureflag.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/JTGrimes/simple-laravel-feature-flag/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/JTGrimes/simple-laravel-feature-flag.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/JTGrimes/simple-laravel-feature-flag.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/JTGrimes/simple-laravel-feature-flag.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/JTGrimes/laravel-simple-featureflag/master.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/JTGrimes/simple-laravel-feature-flag
-[link-travis]: https://travis-ci.org/JTGrimes/simple-laravel-feature-flag
-[link-scrutinizer]: https://scrutinizer-ci.com/g/JTGrimes/simple-laravel-feature-flag/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/JTGrimes/simple-laravel-feature-flag
-[link-downloads]: https://packagist.org/packages/JTGrimes/simple-laravel-feature-flag
+[link-packagist]: https://packagist.org/packages/JTGrimes/laravel-simple-featureflag
+[link-travis]: https://travis-ci.org/JTGrimes/laravel-simple-featureflag
 [link-author]: https://github.com/jtgrimes
