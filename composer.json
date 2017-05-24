@@ -1,12 +1,13 @@
 {
-    "name": "JTGrimes/simple-laravel-feature-flag",
+    "name": "jtgrimes/laravel-simple-featureflag",
     "type": "library",
     "description": "A quick and dirty feature flag for Laravel",
     "keywords": [
-        "JTGrimes",
-        "simple-laravel-feature-flag"
+        "Laravel",
+        "feature flag",
+        "laravel-simple-featureflag"
     ],
-    "homepage": "https://github.com/JTGrimes/simple-laravel-feature-flag",
+    "homepage": "https://github.com/JTGrimes/laravel-simple-featureflag",
     "license": "MIT",
     "authors": [
         {

@@ -1,5 +1,6 @@
 <?php
 
-function feature($name) {
+function feature($name)
+{
     return config('features.'.$name, true);
 }

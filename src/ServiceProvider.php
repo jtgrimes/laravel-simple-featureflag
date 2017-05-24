@@ -18,15 +18,15 @@ class ServiceProvider extends BaseServiceProvider
 
     private function registerBladeDirectives()
     {
-        \Blade::directive('ifFeature', function($featureName) {
+        \Blade::directive('ifFeature', function ($featureName) {
             return "<?php if(feature({$featureName})) : ?>";
         });
 
-        \Blade::directive('elseFeature', function() {
+        \Blade::directive('elseFeature', function () {
             return "<?php else: ?>";
         });
 
-        \Blade::directive('endFeature', function() {
+        \Blade::directive('endFeature', function () {
             return "<?php endif; ?>";
         });
     }

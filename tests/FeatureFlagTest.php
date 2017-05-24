@@ -37,5 +37,4 @@ class FeatureFlagTest extends TestCase
         // don't set the configuration...
         $this->assertTrue(feature('no_such_feature'));
     }
-
 }
