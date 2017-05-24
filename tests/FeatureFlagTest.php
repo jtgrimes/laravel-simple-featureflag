@@ -19,7 +19,7 @@ class FeatureFlagTest extends TestCase
     public function test_blade_directives()
     {
         $fileFinder = Mockery::mock(ViewFinderInterface::class);
-        $fileFinder->shouldReceive('find')->andReturn(__DIR__.'\fixtures\feature.blade.php');
+        $fileFinder->shouldReceive('find')->andReturn(__DIR__.'/fixtures/feature.blade.php');
         \Config::set('features.test', true);
         \View::setFinder($fileFinder);
         $output = view('feature')->render();
