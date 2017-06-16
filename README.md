@@ -3,9 +3,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
 
 This package gives you a quick and dirty way to use feature flags in Laravel 5+. It doesn't 
 provide configuration by user, nor is it set up for A/B tests. It's a simple on/off switch.
@@ -105,8 +103,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/JTGrimes/laravel-simple-featureflag.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/JTGrimes/laravel-simple-featureflag/master.svg?style=flat-square
-
+[ico-travis]: https://travis-ci.org/jtgrimes/laravel-simple-featureflag.svg?branch=master&style=flat-square
+[ico-code-quality]: https://scrutinizer-ci.com/g/jtgrimes/laravel-simple-featureflag/badges/quality-score.png?b=master
+ 
 [link-packagist]: https://packagist.org/packages/JTGrimes/laravel-simple-featureflag
 [link-travis]: https://travis-ci.org/JTGrimes/laravel-simple-featureflag
 [link-author]: https://github.com/jtgrimes
+[link-code-quality]: https://scrutinizer-ci.com/g/jtgrimes/laravel-simple-featureflag/?branch=master
