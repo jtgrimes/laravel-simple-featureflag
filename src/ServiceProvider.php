@@ -21,13 +21,5 @@ class ServiceProvider extends BaseServiceProvider
         \Blade::directive('ifFeature', function ($featureName) {
             return "<?php if(feature({$featureName})) : ?>";
         });
-
-        \Blade::directive('elseFeature', function () {
-            return "<?php else: ?>";
-        });
-
-        \Blade::directive('endFeature', function () {
-            return "<?php endif; ?>";
-        });
     }
 }

@@ -70,12 +70,12 @@ There are also helpers for your Blade views:
 ```blade
 @ifFeature ('test')
     Feature on
-@elseFeature
+@else
     Feature off
-@endFeature
+@endif
 ```
 
-`@elseFeature` is optional, but you must include `@endFeature` to close the if statement.
+`@else` is optional, but you must include `@endif` to close the if statement.
 
 ## Change log
 

@@ -1,5 +1,5 @@
 @ifFeature ('test')
     Feature on
-@elseFeature
+@else
     Feature off
-@endFeature
+@endif
